@@ -6,12 +6,10 @@ Objectif : Pratiquer votre compréhension des bases de Python, des variables, de
 x= int(input("Veulliez introduire la valeur de x: "))
 y= int(input("Veuillez introduire la valeur de y: "))
 
-# Échange des valeurs de x et y sans variable temporaire
 x = x + y  # x devient la somme de x et y
 y = x - y  # y devient l'ancienne valeur de x
 x = x - y  # x devient l'ancienne valeur de y
 
-# Impression conditionnelle
 if x > y:
     print("x est supérieur à y.")
 elif x < y:
